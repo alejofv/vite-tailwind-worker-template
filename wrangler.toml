@@ -1,0 +1,12 @@
+name = "vite-tailwind-template" # Change this!
+type = "webpack"
+
+account_id = "" # Add your Cloudflare Account ID here
+workers_dev = true
+
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./src/dist"
+entry-point = "workers-site"
